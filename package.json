@@ -1,12 +1,12 @@
 {
   "name": "n8n-business",
-  "version": "1.0.0",
   "private": true,
+  "version": "1.0.0",
   "engines": {
     "node": "24.x"
   },
   "scripts": {
-    "start": "n8n start --tunnel --host=0.0.0.0 --port=$PORT"
+    "start": "n8n start"
   },
   "dependencies": {
     "n8n": "^1.123.26"
